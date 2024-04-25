@@ -10,3 +10,29 @@ Through web scraping, we access Roget's comprehensive collection of words and th
 
 You can find the full description of the assignment [here.](https://github.com/cfragiadakis/Roget-s-Thesaurus-Classification/blob/main/third_assignment.ipynb) 
 
+# Main Sections
+
+## Web Scraping Roget's lexicon
+
+We use `requests` and `beautifulsoup` libraries to acquire the lexicon of the words across section/division level, storing it to a `pandas` dataframe.
+
+## Preprocessing lexicon
+
+On this section, we apply preprocessing steps in order to convert our lexicon across word level and also apply steps:
+* Remove punctuations, numbers, whitespaces.
+* Remove words that represent parts of speech (e.g. 'adj', 'n', 'v', 'adv'...).
+* Remove phrases part of each section/division of lexicon since this part of text does not add additional words to our lexicon. 
+
+## Analysis across Class & Section/Division level
+
+## Word Embeddings
+
+### Embeddings using the OpenAI API
+
+### Embeddings with mxbai model
+
+## Clustering
+
+## Class/Section Prediction
+
+## Section Prediction
