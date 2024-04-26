@@ -23,16 +23,17 @@ On this section, we apply preprocessing steps in order to convert our lexicon ac
 * Remove words that represent parts of speech (e.g. 'adj', 'n', 'v', 'adv'...).
 * Remove phrases part of each section/division of lexicon since this part of text does not add additional words to our lexicon. 
 
-## Analysis across Class & Section/Division level
+## Class & Section/Division Analysis
+
+In this section, we generate visualizations to identify the most and least well-represented classes,  as well as to highlight any imbalances in the lexicon across different class and section/division levels.
 
 ## Word Embeddings
 
-### Embeddings using the OpenAI API
+We generate word embeddings using two models, one leveraging the OpenAI API and another utilizing the mxbai-embed-large model, a completely free approach. For the next tasks, we use only the first since they yield slightly superior results.
 
-### Embeddings with mxbai model
+In both approaches, considering the significant time required for this step, we account for instances of network errors (when using the OpenAI API) or any other issues that may arise. Consequently, we save each word's embedding in a file to prevent loss of progress. Subsequently, we concatenate all saved embeddings and store them in a JSON file.
+
 
 ## Clustering
 
 ## Class/Section Prediction
-
-## Section Prediction
