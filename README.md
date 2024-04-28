@@ -6,9 +6,6 @@ Through web scraping, we access Roget's comprehensive collection of words and th
 * Explore if there is a clustering method that can produce similar hierarchies as Roget's.
 * Develop the best classification method, wherein the model's task is to discern a word's correct Class or Section/Division within Roget's categorization.
 
-3rd Assignment for Applied Machine Learning 2024 (DMST, AUEB)
-
-You can find the full description of the assignment [here.](https://github.com/cfragiadakis/Roget-s-Thesaurus-Classification/blob/main/third_assignment.ipynb) 
 
 # Main Sections
 
@@ -25,11 +22,11 @@ On this section, we apply preprocessing steps in order to convert our lexicon ac
 
 ## Class & Section/Division Analysis
 
-In this section, we generate visualizations to identify the most and least well-represented classes,  as well as to highlight any imbalances in the lexicon across different class and section/division levels.
+In this section, we create a few plots to identify the most and least well-represented classes,  as well as to highlight any imbalances in the lexicon across different class and section/division levels.
 
 ## Word Embeddings
 
-We generate word embeddings using two models, one leveraging the OpenAI API and another utilizing the1 [mxbai-embed-large model](https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1) , a completely free approach. For the next tasks, we use only the first since they yield slightly superior results.
+We generate word embeddings using two models, one leveraging the [OpenAI API](https://platform.openai.com/docs/guides/embeddings), and a completely free approach, utilizing the [mxbai-embed-large model](https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1). For the next tasks, we use only the first since they yield slightly superior results.
 
 In both approaches, considering the significant time required for this step, we account for instances of network errors (when using the OpenAI API) or any other issues that may arise. Consequently, we save each word's embedding in a file to prevent loss of progress. Subsequently, we concatenate all saved embeddings and store them in a JSON file.
 
@@ -49,3 +46,10 @@ We select six clusters, corresponding to the number of classes in Roget's lexico
 The evaluation metrics for assessing the results include metrics from the classification report and the Adjusted Rand Index (ARI). These metrics provide insights into the similarity between the produced clusters and Roget's classification.
 
 ## Class/Section Prediction
+
+
+--- 
+
+3rd Assignment for Applied Machine Learning 2024 (DMST, AUEB)
+
+You can find the full description of the assignment [here.](https://github.com/cfragiadakis/Roget-s-Thesaurus-Classification/blob/main/third_assignment.ipynb) 
