@@ -28,11 +28,11 @@ In this section, we create a few plots to identify the most and least well-repre
 
 We generate word embeddings using two models, one leveraging the [OpenAI API](https://platform.openai.com/docs/guides/embeddings), and a completely free approach, utilizing the [mxbai-embed-large model](https://huggingface.co/mixedbread-ai/mxbai-embed-2d-large-v1). For the next tasks, we use only the first since they yield slightly superior results.
 
-In both approaches, considering the significant time required for this step, we account for instances of network errors (when using the OpenAI API) or any other issues that may arise. Consequently, we save each word's embedding in a file to prevent loss of progress. Subsequently, we concatenate all saved embeddings and store them in a JSON file.
+In both approaches, considering the significant time required for this step, we account for instances of network errors (when using the OpenAI API) or any other issues that may arise. Consequently, we save each word's embedding in a separate file to prevent loss of progress. Subsequently, we concatenate all saved embeddings and store them in a JSON file.
 
 
 ## Clustering
-We implement clustering at  class level to explore whether methods could produce clusters similar to Roget's classification.
+We implement clustering at  class level to explore whether clustering algorithms can produce clusters similar to Roget's classification.
 
 Before applying any algorithms, we visualize the actual representation of Roget's classes using PCA (Principal Component Analysis) with 2 components, along with the centroids of each class.
 
