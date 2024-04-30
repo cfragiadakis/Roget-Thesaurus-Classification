@@ -32,7 +32,7 @@ In both approaches, considering the significant time required for this step, we 
 
 
 ## Clustering
-We implement clustering at  class level to explore whether clustering algorithms can produce clusters similar to Roget's classification.
+Utilizing `scikit-learn` library, we implement clustering at  class level to explore whether clustering algorithms can produce clusters similar to Roget's classification.
 
 Before applying any algorithms, we visualize the actual representation of Roget's classes using PCA (Principal Component Analysis) with 2 components, along with the centroids of each class.
 
