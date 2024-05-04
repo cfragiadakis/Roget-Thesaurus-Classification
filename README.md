@@ -47,6 +47,20 @@ The evaluation metrics for assessing the results include metrics from the classi
 
 ## Class/Section Prediction
 
+Utilizing `scikit-learn` and `lgbm` libraries, we aim to develop two models that receive a word as input, and predict their class or section/division.
+
+To split our dataset into training, validation, and testing sets, we implement a function that ensures each dataset has the same representation of each class.
+
+For both tasks, we initially test multiple vanilla models, including Logistic Regression, SGD Classifier, Gaussian NB, Random Forest Classifier, XGBoost, and LGBM Classifier.
+
+### Class Prediction
+
+In the class prediction task, we use `scikit-optimize` and Bayesian Optimization for hyperparameter tuning. Also, we try ensemble methods to further improve our results. Each model's performance across class label is visualized with a confusion matrix. Our final class model is a Voting Classifier, consisting of a Logistic Regression and an LGBM Classifier, achieving 62% accuracy.
+
+### Section/Division Prediction
+
+Similar steps are applied for the Section/Division prediction. We implement grid search for the Logistic Regression model, which achieves superior results compared to other models. In this case, the Bagging ensemble method also slightly increases the precision of the model. The final section model achieves 49% accuracy, which is reasonable considering the significantly larger number of possible labels compared to the class prediction task.
+
 
 --- 
 
