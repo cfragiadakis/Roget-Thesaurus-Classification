@@ -22,7 +22,9 @@ or using pip:
 pip install -r requirements.txt
 ```
 ## Data Resources
-You can have access to the generated word embeddings of the project through this drive: 
+You can access the generated word embeddings used in this project from the following link:
+
+[Word Embeddings](
 
 # Main Sections
 
