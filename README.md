@@ -86,4 +86,4 @@ Similar steps are applied for the Section/Division prediction. We implement grid
 
 3rd Assignment for Applied Machine Learning 2024 (DMST, AUEB)
 
-You can find the full description of the assignment [here.](https://github.com/cfragiadakis/Roget-s-Thesaurus-Classification/blob/main/third_assignment.ipynb) 
+You can find the full description of the assignment [here](https://github.com/cfragiadakis/Roget-s-Thesaurus-Classification/blob/main/third_assignment.ipynb).
