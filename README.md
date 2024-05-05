@@ -38,6 +38,8 @@ We apply preprocessing steps in order to convert our lexicon across word level a
 * Remove words that represent parts of speech (e.g. 'adj', 'n', 'v', 'adv'...).
 * Remove phrases part of each section/division of lexicon since this part of text does not add additional words to our lexicon. 
 
+After these steps, the lexicon comprises around **73,000** words, categorized into **6** classes and further subdivided into **24** sections/divisions.
+
 ## Class & Section/Division Analysis
 
 In this section, we create a few plots to identify the most and least well-represented classes,  as well as to highlight any imbalances in the lexicon across different class and section/division levels.
