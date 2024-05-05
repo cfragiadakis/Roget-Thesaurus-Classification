@@ -6,6 +6,19 @@ We access Roget's comprehensive collection of words and their associations throu
 * Explore if there is a clustering method that can produce similar hierarchies to Roget's.
 * Develop the best classification method, wherein the model's task is to discern a word's correct Class or Section/Division within Roget's categorization.
 
+# Installation
+
+You can install the dependencies of the project using [Poetry](https://python-poetry.org/)
+
+```
+poetry install
+```
+
+or using pip:
+
+```
+pip install -r requirements.txt
+```
 
 # Main Sections
 
