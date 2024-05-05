@@ -8,7 +8,9 @@ We access Roget's comprehensive collection of words and their associations throu
 
 # Installation
 
-You can install the dependencies of the project using [Poetry](https://python-poetry.org/)
+## Dependencies
+
+You can install the dependencies of the project using [Poetry](https://python-poetry.org/):
 
 ```
 poetry install
@@ -19,6 +21,8 @@ or using pip:
 ```
 pip install -r requirements.txt
 ```
+## Data Resources
+You can have access to the generated word embeddings of the project through this drive: 
 
 # Main Sections
 
