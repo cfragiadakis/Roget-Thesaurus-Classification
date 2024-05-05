@@ -47,7 +47,7 @@ The evaluation metrics for assessing the results include metrics from the classi
 
 ## Class/Section Prediction
 
-Utilizing `scikit-learn` and `lgbm` libraries, we aim to develop two models that receive a word as input, and predict their class or section/division.
+Utilizing `scikit-learn` and `lightgbm` libraries, we aim to develop two models that receive a word as input, and predict their class or section/division.
 
 To split our dataset into training, validation, and testing sets, we implement a function that ensures each dataset has the same representation of each class/section.
 
