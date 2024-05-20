@@ -88,4 +88,4 @@ Similar steps are applied for the Section/Division prediction, which involves 24
 
 3rd Assignment for Applied Machine Learning 2024 (DMST, AUEB)
 
-You can find the full description of the assignment [here](https://github.com/cfragiadakis/Roget-s-Thesaurus-Classification/blob/main/third_assignment_description.ipynb).
+You can find the description of the assignment [here](https://github.com/cfragiadakis/Roget-s-Thesaurus-Classification/blob/main/third_assignment_description.ipynb).
