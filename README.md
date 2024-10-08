@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 ## Data Resources
 
-You can access the word embeddings used in this project, as well as the machine learning classification models for the "Class/Section Prediction" section from this [link](https://drive.google.com/drive/folders/1fhWq8VNi8ZOD0D2jUteGo__cet208hvB?usp=sharing)
+You can access the word embeddings used in this project, as well as the machine learning classification models for the "Class/Section Prediction" section through this [link](https://drive.google.com/drive/folders/1fhWq8VNi8ZOD0D2jUteGo__cet208hvB?usp=sharing)
 
 # Main Sections
 
