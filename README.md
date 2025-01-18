@@ -77,7 +77,7 @@ Each model's performance is visualized with a confusion matrix.
 
 ### Class Prediction
 
-In the class prediction task, which involves 6 possible labels, we use `scikit-optimize` and Bayesian Optimization for hyperparameter tuning. Also, ensemble methods further improve the results. The final class model is a Voting Classifier, consisting of a Logistic Regression and an LGBM Classifier, achieving 62% accuracy.
+In the class prediction task, which involves 6 possible labels, `scikit-optimize` and Bayesian Optimization for hyperparameter tuning are used. Also, ensemble methods further improve the results. The final class model is a Voting Classifier, consisting of a Logistic Regression and an LGBM Classifier, achieving 62% accuracy.
 
 ### Section/Division Prediction
 
